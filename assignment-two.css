@@ -319,6 +319,7 @@ nav ul li button {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 30px;
+    line-height: 20px;
 }
 
 .third-section .details button {
