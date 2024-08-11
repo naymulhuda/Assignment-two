@@ -206,6 +206,7 @@ nav ul li button {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
+    line-height: 20px;
 }
 
 .second-section {
@@ -720,7 +721,7 @@ footer p {
         flex-direction: column-reverse;
         height: 580px;
         gap: 30px;
-        /* border: none; */
+        border: none;
         padding-left: 35px;
     }
     .extra-section-content button {
