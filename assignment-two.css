@@ -422,10 +422,10 @@ nav ul li button {
 .fourth-section-content p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 400;
     width: 630px;
-
+    line-height: 20px;
 }
 
 .fifth-section-container {
