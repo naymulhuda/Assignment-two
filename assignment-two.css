@@ -422,7 +422,7 @@ nav ul li button {
 .fourth-section-content p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 400;
     width: 630px;
     line-height: 20px;
@@ -441,7 +441,7 @@ nav ul li button {
 .chart h2 {
     color: white;
     margin-bottom: 50px;
-    font-size: 28px;
+    font-size: 1.9rem;
 }
 
 table {
@@ -466,7 +466,7 @@ th {
     margin-left: 10px;
     color: white;
     margin-bottom: 14px;
-    font-size: 28px;
+    font-size: 1.9rem;
 }
 
 .calculation p {
@@ -477,6 +477,7 @@ th {
     width: 630px;
     margin-left: 10px;
     margin-bottom: 30px;
+    line-height: 20px;
 }
 
 .two-input input {
