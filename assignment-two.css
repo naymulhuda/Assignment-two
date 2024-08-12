@@ -180,7 +180,6 @@ nav ul li button {
     align-items: center;
     gap: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    ;
     padding: 20px;
     color: white;
     margin-left: 60%;
@@ -895,5 +894,58 @@ footer p {
         color: white;
         margin-top: 20px;
         margin-left: 70px;
+    }
+
+    .hero-title {
+        margin-top: 60px;
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+
+    .hero-para {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .button {
+        width: 170px;
+        height: 50px;
+        padding: 10px 10px;
+        border-radius: 42px;
+    }
+
+    .first-btn, .second-btn {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .hero-title {
+        margin-top: 60px;
+        font-size: 3rem;
+        line-height: 55px;
+    }
+
+    .hero-para {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .hero-img-btn {
+        margin-left: 50px;
+    }
+
+    .shape{
+        font-size: 5rem;
+    }
+
+    .tutorial {
+        top: 42%;
+    }
+
+    .Five-hundred-plus {
+        margin-top: -10%;
+        margin-left: 53%;
+    }
+    .first-section h2 {
+        margin-top: 10px;
     }
 }
