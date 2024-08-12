@@ -282,7 +282,8 @@ nav ul li button {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-    border: 2px solid yellow;
+   
+    width: 100%;
 }
 
 .third-section-content {
@@ -294,7 +295,7 @@ nav ul li button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid red;
+   
 }
 
 .third-section-content .details {
@@ -691,7 +692,7 @@ footer p {
     .third-section-container {
         width: 100%;
         margin-bottom: 80px;
-        border: 2px solid yellow;
+      
     }
 
     .third-section-content {
@@ -700,7 +701,7 @@ footer p {
         width: 90%;
         padding-top: 20px;
         padding-bottom: 20px;
-        border: 2px solid red;
+       
     }
 
     .third-section-content .details h1 {
@@ -954,28 +955,39 @@ footer p {
     }
 
     .third-section-container {
-        border: 2px solid yellow;
+        
+       /* margin-left: 20px; */
+       width: 100%;
+
     }
 
     .third-section-content {
-        border: 2px solid red;
+        
+        width: 90%;
+        
     }
 
     .third-section-content .details {
-       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding-left: 50px; */
+        width: 100%;
     }
     
     .third-section-content .details h1 {
         font-size: 2rem;
+        margin-left: 30px;
     }
 
     .third-section-content .details p {
-       
+        margin-left: 30px;
     }
 
     .third-section-content .details button {
-        width: 80%;
+        width: 70%;
         margin-bottom: 30px;
+        margin-left: 30px;
     }
 
     
