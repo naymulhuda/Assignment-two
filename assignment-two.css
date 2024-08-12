@@ -605,7 +605,7 @@ footer p {
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px)  {
   
     .header-container {
         width: 100%;
@@ -863,5 +863,37 @@ footer p {
     footer .copiright {
         width: 100%;
         text-align: left;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .header-container {
+        width: 100%;
+    }
+    nav {
+
+        gap: 150px;
+        padding-top: 50px;
+        
+       
+    }
+    nav .nav-hamburger-menu {
+        margin-right: 130px;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+        margin-left: 25px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .nav-hamburger-menu {
+        display: block;
+        color: white;
+        margin-top: 20px;
+        margin-left: 70px;
     }
 }
