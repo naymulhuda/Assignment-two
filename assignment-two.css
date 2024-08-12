@@ -282,9 +282,10 @@ nav ul li button {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    border: 2px solid yellow;
 }
 
-.third-section {
+.third-section-content {
     width: 1060px;
     height: 371px;
     border-radius: 18px;
@@ -293,10 +294,10 @@ nav ul li button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    border: 2px solid red;
 }
 
-.third-section .details {
+.third-section-content .details {
     width: 443px;
     height: 290px;
     display: flex;
@@ -304,15 +305,15 @@ nav ul li button {
     justify-content: center;
 }
 
-.third-section .details h1 {
+.third-section-content .details h1 {
     font-family: Inter;
     font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 15px;
 }
 
-.third-section .details p {
-    width: 90%;
+.third-section-content .details p {
+    width: 80%;
     font-family: Inter;
     font-size: 0.8rem;
     font-weight: 400;
@@ -321,7 +322,7 @@ nav ul li button {
     line-height: 20px;
 }
 
-.third-section .details button {
+.third-section-content .details button {
     width: 224px;
     height: 54px;
     border: none;
@@ -333,7 +334,7 @@ nav ul li button {
     color: white;
 }
 
-.third-section .img {
+.third-section-content .img {
     width: 366px;
     height: 312px;
     border-radius: 18px;
@@ -690,30 +691,32 @@ footer p {
     .third-section-container {
         width: 100%;
         margin-bottom: 80px;
+        border: 2px solid yellow;
     }
 
-    .third-section {
+    .third-section-content {
         flex-direction: column;
         height: 531px;
         width: 90%;
         padding-top: 20px;
         padding-bottom: 20px;
+        border: 2px solid red;
     }
 
-    .third-section .details h1 {
+    .third-section-content .details h1 {
         font-size: 2rem;
     }
 
-    .third-section .details p {
+    .third-section-content .details p {
         width: 90%;
     }
 
-    .third-section .details button {
+    .third-section-content .details button {
         width: 100%;
         margin-bottom: 30px;
     }
 
-    .third-section .img {
+    .third-section-content .img {
         width: 90%;
     }
 
@@ -751,6 +754,7 @@ footer p {
         height: 1000px;
         align-items: flex-start;
         gap: 0px;
+        width: 100%;
     }
     .calculation-form .submit {
         width: 218px;
@@ -947,5 +951,50 @@ footer p {
     }
     .first-section h2 {
         margin-top: 10px;
+    }
+
+    .third-section-container {
+        border: 2px solid yellow;
+    }
+
+    .third-section-content {
+        border: 2px solid red;
+    }
+
+    .third-section-content .details {
+       
+    }
+    
+    .third-section-content .details h1 {
+        font-size: 2rem;
+    }
+
+    .third-section-content .details p {
+       
+    }
+
+    .third-section-content .details button {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    
+    .two-input input {
+        width: 168px;
+        height: 48px;
+    }
+
+    .two-input {
+        display: flex;
+    }
+
+    .two-input select {
+        width: 187px;
+        height: 60px;
+    }
+
+    .last-option select {
+        width: 95%;
+        height: 60px;
     }
 }
